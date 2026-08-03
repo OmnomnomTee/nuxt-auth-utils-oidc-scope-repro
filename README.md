@@ -7,6 +7,8 @@ The reproduction uses the real Nuxt module and generic OIDC handler. No real ide
 client secret, or completed login is required. The fake provider endpoints use the reserved
 `.example` domain and are never contacted.
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/OmnomnomTee/nuxt-auth-utils-oidc-scope-repro?startScript=dev)
+
 ## Run
 
 ```bash
@@ -48,10 +50,10 @@ reloading the browser page does not.
 - [`server/api/reproduce.get.ts`](./server/api/reproduce.get.ts) makes the repeated requests and
   returns the observed scope counts.
 
-## CodeSandbox
+## StackBlitz
 
-Import this repository into CodeSandbox with:
+Run the reproduction directly in StackBlitz:
 
 ```text
-https://codesandbox.io/p/github/OmnomnomTee/nuxt-auth-utils-oidc-scope-repro
+https://stackblitz.com/github/OmnomnomTee/nuxt-auth-utils-oidc-scope-repro?startScript=dev
 ```
